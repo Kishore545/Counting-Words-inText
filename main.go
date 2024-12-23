@@ -24,7 +24,7 @@ func main() {
 	pairs := sortWordFrequency(words)
 
 	for _, pair := range pairs {
-		fmt.Printf("%s \t\t %d\n", pair.key, pair.value)
+		fmt.Printf("%s \t\t %d\n", pair.Key, pair.Value)
 	}
 	w, n, err := maxWord(words)
 	if err != nil {
